@@ -32,4 +32,20 @@
         app:qrcv_toolbarHeight="56dp"
         app:qrcv_topOffset="90dp" />
 
+    <LinearLayout
+        android:layout_alignBottom="@id/zxingview"
+        style="@style/MatchWrap.Horizontal">
+        <TextView
+            android:id="@+id/open_flashlight"
+            style="@style/AutoWrapTv"
+            android:text="开灯" />
+        <TextView
+            android:id="@+id/close_flashlight"
+            style="@style/AutoWrapTv"
+            android:text="关灯" />
+        <TextView
+            android:id="@+id/choose_qrcde_from_gallery"
+            style="@style/AutoWrapTv"
+            android:text="从相册选取扫描" />
+    </LinearLayout>
 </RelativeLayout>
